@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+/*  */
+font-family: 'Roboto', sans-serif;
+background-color: transparent;
+}
+nav{
+  
+background-color: #333333;
+}
+.animate-link {
+  transition: transform 0.3s ease-in-out;
+}
+
+.animate-link:hover {
+  transform: scale(1.1);
+}
